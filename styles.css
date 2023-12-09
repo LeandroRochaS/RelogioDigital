@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    background: #EAECF3;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+
+
+
+
+.clock-img {
+    display: block;
+    margin-top: 92px;
+    margin-bottom: 46px;
+}
+
+
+img {
+    width: 420px;
+    height: 420px;
+    flex-shrink: 0;
+}
+
+
+.clock-container {
+    width: 920px;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.clock-info-up {
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.clock-info-up-time {
+    color: #000;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.clock-info-up-am {
+    text-align: right;
+    color: #000;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+
+}
+
+.clock-info-down {
+
+    text-align: center;
+
+    margin-top: 46px;
+    color: #605E65;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
